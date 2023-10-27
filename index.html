@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png">
+    <title>Result Summary Component</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+    </style>
+</head>
+<body>
+    <main>
+        <div id="main-container">
+            <div id="result-container">
+                <h1>Your Result</h1>
+                <div id="total">
+                    <h2>76</h2>
+                    <p>of 100</p>
+                </div>
+                <div id="comment">
+                    <h3>Great</h3>
+                    <p>You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+            </div>
+            <div id="summary-container">
+                <h4>Summary</h4>
+                <div id="score-container">
+                    <div class="score" id="reaction">
+                        <div>
+                            <img src="images/icon-reaction.svg" alt="lightning icon">
+                            <h5>Reaction</h5>
+                        </div>
+                        <h6>80<span>/100</span></h6>
+                    </div>
+                    <div class="score" id="memory">
+                        <div>
+                            <img src="images/icon-memory.svg" alt="memory icon">
+                            <h5>Memory</h5>
+                        </div>
+                        <h6>92<span>/100</span></h6>
+                    </div>
+                    <div class="score" id="verbal">
+                        <div>
+                            <img src="images/icon-verbal.svg" alt="comment icon">
+                            <h5>Verbal</h5>
+                        </div>
+                        <h6>61<span>/100</span></h6>
+                    </div>
+                    <div class="score" id="visual">
+                        <div>
+                            <img src="images/icon-visual.svg" alt="eye icon">
+                            <h5>Visual</h5>
+                        </div>
+                        <h6>72<span>/100</span></h6>
+                    </div>
+                </div>
+                <button onclick="alert('OK👍')">Continue</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Challenge by <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub">Frontend Mentor</a>. Coded by <a href="https://github.com/foguibe">Fortune Oguibe</a>.</p>
+    </footer>
+</body>
+</html>
